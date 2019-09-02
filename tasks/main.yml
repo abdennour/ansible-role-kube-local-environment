@@ -1,0 +1,10 @@
+---
+# tasks file for kube-local-environment
+# TODO to be refactored to be multi-platform
+- name: helmfile is installed
+  become_user: root
+  get_url:
+    url: https://github.com/roboll/helmfile/releases/download/v0.82.0/helmfile_darwin_amd64
+    dest: /usr/local/bin/helmfile
+    mode: '0755'
+    
