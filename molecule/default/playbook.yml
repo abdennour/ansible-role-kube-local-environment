@@ -3,4 +3,3 @@
   hosts: all
   roles:
     - role: abdennour.kube-local-environment
-
