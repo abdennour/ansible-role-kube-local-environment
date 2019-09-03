@@ -16,7 +16,12 @@ Same Variables of dependent roles (check : meta/main.yml)
 Dependencies
 ------------
 
-It is already a consolidator of other roles. These roles are defined in the dependency list of this role. You don't need to include them in your project 
+It is already a consolidator of other roles.
+
+- andrewrothstein.kubectl
+- andrewrothstein.kubernetes-helm
+- abdennour.helmfile
+- samcre.aws_iam_authenticator
 
 Example Playbook
 ----------------
