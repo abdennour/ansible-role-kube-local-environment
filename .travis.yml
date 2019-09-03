@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: kube-local-environment
+    - ROLE_NAME: kube_local_environment
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: ubuntu1804
@@ -18,7 +18,7 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME abdennour.$ROLE_NAME
+  - mv ansible-role-kube-local-environment abdennour.$ROLE_NAME
   - cd abdennour.$ROLE_NAME
 
 script:

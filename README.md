@@ -25,7 +25,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: localhost
       roles:
-         - abdennour.kube-local-environment
+         - abdennour.kube_local_environment
 
 License
 -------

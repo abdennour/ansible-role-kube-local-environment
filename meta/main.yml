@@ -2,7 +2,7 @@ galaxy_info:
   author: Abdennour TOUMI
   description: An ansible role that installs kubernetes utilities in a dev environment
   company: kubernetes.tn
-  role_name: kube-local-environment
+  role_name: kube_local_environment
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   issue_tracker_url: https://github.com/abdennour/ansible-role-kube-local-environment/issues
