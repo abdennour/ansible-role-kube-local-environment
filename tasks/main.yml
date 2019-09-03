@@ -4,4 +4,3 @@
 - name: kube-local software are installed
   debug:
     msg: kube-local software are installed
-    
